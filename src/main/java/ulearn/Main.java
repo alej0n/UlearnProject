@@ -89,7 +89,7 @@ public class Main {
     private static void Task3() throws SQLException {
         var result = """ 
             SELECT type_business, number_jobs FROM grants
-            WHERE amount < '55000'
+            WHERE amount <= '55000'
             ORDER BY number_jobs DESC
             """;
 
