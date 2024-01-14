@@ -26,7 +26,7 @@ public class Main {
             // добавляем объект в БД
             sql.add(i);
             if (i.getTypeBusiness().contains("Salon/Barbershop")) {
-                // для второго задания сохраним магнитуды из типа бизнеза "Salon/Barbershop"
+                // для второго задания сохраним гранты из типа бизнеза "Salon/Barbershop"
                 salonBarbershopTypeBusiness.add(i.getAmount());
             }
         }
